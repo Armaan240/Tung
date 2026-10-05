@@ -21,7 +21,7 @@ document.body.appendChild( renderer.domElement );
 
 let tung;
 const loader = new GLTFLoader();
-loader.load('assets/tung.glb',function(object){
+loader.load('./assets/tung.glb',function(object){
     tung = object.scene;
     scene.add(tung);
 });

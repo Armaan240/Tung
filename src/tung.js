@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import './tung.css';
+import '../tung.css';
 
 import { GLTFLoader } from 'three/examples/jsm/Addons.js';
 const scene = new THREE.Scene()
